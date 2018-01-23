@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tool",
+            "type": "node",
+            "request": "launch",
+            "port": 5858,
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "start"
+            ],            
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "LOG4JS_CONFIG": "${workspaceRoot}/log4js.json",
+                "_NODE_ARGS": "--inspect-brk=5858"
+            }
+        }
+    ]
+}
