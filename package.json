@@ -10,7 +10,6 @@
   "author": "mlazzarini",
   "license": "ISC",
   "dependencies": {
-    "@collaborne/kafka-message-client": "^1.0.1",
     "incremental-json-parser": "^0.1.0",
     "json2csv": "^3.11.5",
     "log4js": "^2.5.2",
