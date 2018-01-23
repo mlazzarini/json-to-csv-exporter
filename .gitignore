@@ -1,0 +1,10 @@
+/node_modules/
+/npm-debug.log
+/npm-shrinkwrap.json
+/.vscode/
+/deploy/
+*.rej
+*.orig
+*.porig
+yarn.lock
+package-lock.json
